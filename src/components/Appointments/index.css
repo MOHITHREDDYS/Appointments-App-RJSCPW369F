@@ -1,0 +1,143 @@
+/* Write your CSS here */
+
+.main_container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px 20px;
+  padding-top: 30px;
+  font-family: 'Roboto';
+  width: 85%;
+  max-width: 500px;
+}
+
+.main_heading {
+  color: #171f46;
+  font-size: 25px;
+}
+
+.label_heading {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  outline: none;
+  margin-top: 10px;
+  font-family: 'Roboto';
+}
+
+.error {
+  margin-top: 0px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.add_button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.appointments_image {
+  width: 100%;
+  display: none;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #b5b7c4;
+  background-color: #b5b7c4;
+}
+
+.starred_button {
+  border-radius: 40px;
+  padding: 3px 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+
+.unactive {
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  background-color: transparent;
+}
+.active {
+  color: #ffffff;
+  border: 1px solid #9897f0;
+  background-color: #9897f0;
+}
+
+.heading_button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 50px 50px;
+    max-width: 1000px;
+  }
+  .main_heading {
+    font-size: 35px;
+  }
+  .appointments_image {
+    display: flex;
+    width: 50%;
+  }
+  .inputs_image_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .inputs_container {
+    width: 50%;
+  }
+  .label_heading {
+    font-size: 20px;
+  }
+  input {
+    width: 80%;
+    font-size: 20px;
+  }
+  .add_button {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+  .starred_button {
+    font-size: 20px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

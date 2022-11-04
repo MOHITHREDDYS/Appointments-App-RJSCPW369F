@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+li {
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Roboto';
+  padding: 5px 25px;
+  margin-top: 20px;
+}
+
+.title_container {
+  margin-right: 15px;
+}
+
+.appointment_title {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+
+.star_button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.star_image {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    margin: 10px;
+    width: 255px;
+  }
+}
